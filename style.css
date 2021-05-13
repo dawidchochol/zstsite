@@ -1,0 +1,157 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    background-image: url(tlo.png);
+    color: lightgrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container
+{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 150px rgb(54, 54, 54);
+
+}
+
+header
+{        
+    padding: 10px;
+    float: left;
+
+}
+nav
+{
+    padding: 10px;
+}
+#menu
+{
+    margin: auto;
+    padding-left: 220px;
+    overflow: hidden;  
+}
+.menuopt
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    height: 30px;
+}
+.menuopt:hover
+{
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+a
+{
+    text-decoration: none;
+}
+a:link
+{
+   color: #f2f2f2;
+}
+a:visited
+{
+    color: #f2f2f2;
+}
+article
+{
+    float: none;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    padding-top: 50px;
+}
+article img
+{
+    display: block;
+    margin: 0 auto;
+}
+article h2
+{
+    text-align: center;
+}
+#first
+{
+
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+    background-color: #00529C;   
+    float: left;
+    box-shadow: 1px 1px 30px #00529C;
+
+
+
+}
+#first:hover
+{
+    opacity: 0.8;
+    transition: 0.6s;
+    box-shadow: 1px 1px 50px #ffffff;
+
+}
+#second
+{
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+    background-color: #007CE8;
+    float: left; 
+    box-shadow: 1px 1px 30px#007CE8;
+
+}
+#second:hover
+{
+    opacity: 0.8;
+    transition: 0.6s;
+    box-shadow: 1px 1px 50px #ffffff;
+
+}
+#third
+{
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+    background-color: #1063ac;
+    float: left; 
+    box-shadow: 1px 1px 30px#1063ac;
+
+}
+#third:hover
+{
+    opacity: 0.8;
+    transition: 0.6s;
+    box-shadow: 1px 1px 50px #ffffff;
+
+}
+#fourth
+{
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+    background-color:#005AA8;
+    float: left; 
+    box-shadow: 1px 1px 30px #005AA8;
+
+}
+#fourth:hover
+{
+    opacity: 0.8;
+    transition: 0.6s;
+    box-shadow: 1px 1px 50px #ffffff;
+
+}
+footer
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.198);
+}
